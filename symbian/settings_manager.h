@@ -27,6 +27,8 @@ Q_SIGNALS:
 private:
     QString m_strAccessToken;
     QString m_strRefreshToken;
+    QString m_strCompanyName;
+    QString m_strAppName;
 };
 
 QML_DECLARE_TYPE(SettingsManager)
